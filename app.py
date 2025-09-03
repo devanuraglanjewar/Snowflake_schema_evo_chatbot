@@ -25,8 +25,8 @@ def _DEF(k, d=None):
     except Exception:
         return os.getenv(k, d)
 
-st.set_page_config(page_title="Snowflake Schema Evolution Assistant (FOSS)", layout="wide")
-st.title("🚀 AI-Powered Snowflake Schema Evolution Assistant (FOSS)")
+st.set_page_config(page_title="Snowflake Schema Evolution Assistant", layout="wide")
+st.title("🚀 AI-Powered Snowflake Schema Evolution Assistant")
 
 # -------------------------
 # Session state for latest schema change context
