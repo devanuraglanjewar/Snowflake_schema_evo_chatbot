@@ -1,0 +1,14 @@
+streamlit==1.26.0
+pandas
+numpy
+sentence-transformers
+faiss-cpu
+requests
+python-dotenv
+streamlit-authenticator==0.3.2
+snowflake-connector-python
+ollama
+fastapi
+uvicorn
+transformers
+torch
