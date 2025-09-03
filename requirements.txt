@@ -12,3 +12,4 @@ fastapi
 uvicorn
 transformers
 torch
+pillow==9.5.0
