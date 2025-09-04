@@ -121,7 +121,7 @@ with schema_tab:
             st.stop()
 
         try:
-            conn = make_snowflake_connection(cfg)
+            conn = st.make_snowflake_connection(cfg)
         except Exception as e:
             st.error(f"❌ Could not connect to Snowflake: {e}")
             st.stop()
